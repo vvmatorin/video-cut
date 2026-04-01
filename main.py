@@ -457,7 +457,7 @@ class VideoPrepWindow(QMainWindow):
         if self.player is None:
             return
         path_str, _ = QFileDialog.getOpenFileName(
-            self, "Open MP4 Video", "", "MP4 Files (*.mp4);;All Files (*)"
+            self, "Open Video", "", "Video Files (*.mp4 *.mov *.avi *.mkv *.webm *.wmv *.m4v);;All Files (*)",
         )
         if not path_str:
             return
