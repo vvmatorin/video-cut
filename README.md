@@ -18,10 +18,18 @@ Built with PySide6 (Qt) and [libmpv](https://mpv.io/) for low-latency video play
 
 ## Quick Start (MacOS)
 
+### Installation
+
 The included install script handles Homebrew, mpv, FFmpeg, uv, and Python dependencies automatically:
 
 ```bash
 ./install.sh
+```
+
+### Run 
+
+```
+uv run main.py
 ```
 
 ## Keyboard Shortcuts
